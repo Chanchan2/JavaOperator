@@ -1,5 +1,9 @@
 package ifCondition;
-
+/*
+ * @ Date : 2015.07.08
+ * @ Author : KEC
+ * @ Story : if-구문에 관한 문법
+ * */
 public class IfElse {
 	public static void main(String[] args) {
 		int x = 1, y = 2;	// 지변 초기화
