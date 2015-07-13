@@ -25,6 +25,7 @@ public class ManOrWoman {
 		 * 2,4 번 여자
 		 * 5번 외국인
 		 * */
+		
 		switch (ch) {
 		case '1': case '3': msg = "남성" ;
 			break;
