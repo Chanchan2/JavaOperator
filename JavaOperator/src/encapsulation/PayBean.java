@@ -6,17 +6,24 @@ public class PayBean {
 	// 메소드는 선언부, 연산부, 출력부 이렇게 나누고
 	// Bean 클래스라면 멤버필드 + 멤버메소드
 	private String name;
-	private int pay, tax, money;// 멤버필드 변수는 초기화를 하지 않는다.
+	private int pay;// 멤버필드 변수는 초기화를 하지 않는다.
 	
 	// 멤버 메소드 영역이 시작
 	public void setName(String name) {
 		this.name = name;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
 	public void setPay(int pay) {
 		this.pay = pay;
 	}
 	
+	public int getPay() {
+		return pay;
+	}
 	public int getTax() {
 		int tax = 0;	//지변 초기화
 		tax = (int) (pay * 0.1);
@@ -33,7 +40,7 @@ public class PayBean {
 
 	public String toString() {
 		String str = "";
-		str = "[" + this.name + "]" + "월급 : " + this.pay + " 만원 \n" 
+		str = "[" + this.name + "] \n" + "월급 : " + this.pay + " 만원 \n" 
 				+ "세금 : " + this.getTax() + " 만원 \n" +
 				"실급여 : " + this.getMoney() + " 만원 \n";
 		return str;

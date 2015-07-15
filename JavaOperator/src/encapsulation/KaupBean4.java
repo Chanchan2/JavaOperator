@@ -1,5 +1,9 @@
 package encapsulation;
-
+/*
+ * @ Date : 2015.07.14
+ * @ Author : KEC
+ * @ Story :
+ * */
 import java.util.Scanner;
 
 /*

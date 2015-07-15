@@ -1,5 +1,9 @@
 package encapsulation;
-
+/*
+ * @ Date : 2015.07.14
+ * @ Author : KEC
+ * @ Story :
+ * */
 import java.util.Scanner;
 
 public class PayMain {
@@ -26,6 +30,8 @@ public class PayMain {
 		PayBean payBean = new PayBean();
 		payBean.setName(name);
 		payBean.setPay(pay);
+		
+		System.out.println(payBean.getName() + "님 반갑습니다.");
 		
 		System.out.println(payBean.toString());
 		
