@@ -1,8 +1,12 @@
 package abstraction;
 
 public class ShieldRobot extends BasicBot{
+	/*=== Field ===*/
 	private int sheildPoint;
 	
+	/*=== Constructor ===*/
+	
+	/*=== MemberMethod ===*/
 	public void robotInfo(String name, int energy, int speed, int sheildPoint){
 		super.name(name);
 		super.charge(energy);

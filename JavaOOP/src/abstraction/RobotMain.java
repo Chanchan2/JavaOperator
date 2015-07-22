@@ -21,7 +21,7 @@ public class RobotMain {
 		Robot[] robot = new Robot[2];
 		robot[0] = gunRobot;
 		robot[1] = shieldRobot;
-		
+	
 		for(Robot robot1 : robot){
 			robot1.status();
 		}
