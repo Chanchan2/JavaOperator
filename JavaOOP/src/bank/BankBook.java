@@ -25,7 +25,7 @@ public class BankBook{
 	public String showAccount() {
 	
 		return  "=============== \n"
-				+ BANK
+				+ BANK + "\n"
 				+ " 계좌번호 : " + bankbookNo + "\n"
 				+ "이름 : " + name +  "\n"
 				+ "잔액 : " + money + " 원 \n"
