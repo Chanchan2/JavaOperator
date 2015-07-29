@@ -1,5 +1,5 @@
 package utill.vector;
-// 전체에서 특정 글자 바꾸기 단축키 CTRL + F
+// 전체에서 특정 글자 바꾸기 단축키 CTRL + F 		get <--> elementAt
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
