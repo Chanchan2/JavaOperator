@@ -1,5 +1,6 @@
 package member;
 
+import java.lang.management.MemoryManagerMXBean;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -37,7 +38,7 @@ public class MemberServiceImpl implements MemberService {
 			while (it.hasNext()) {
 				// 맵 내부에서는 int가 기본형이라 볼 수 없고 반드시 Integer (= 기본형 int의 Wrapper 래퍼클래스)
 				// 타입으로 놓아야 한다.
-				if (password.equalsIgnoreCase((String) it.next())) {
+				if (password.equalsIgnoreCase(memberMap.get(id).getPassword())) {
 					msg = "환영합니다. \n" + memberMap.get(id).getAddress() + " 에 사시는 "
 							+ memberMap.get(id).getAge() + " 세 되시는 " + memberMap.get(id).getName()
 							+ " 님";
